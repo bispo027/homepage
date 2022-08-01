@@ -2,9 +2,11 @@
 
 [https://bispo.vercel.app](https://bispo.vercel.app/)
 
-# License
+## License
 [MIT](./LICENSE)
 
-# Author
+## Author
+
 [craftz.dog](https://www.craftz.dog/)
+<br>
 [bishop](https://bispo.vercel.app/)
