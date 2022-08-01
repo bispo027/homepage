@@ -17,7 +17,7 @@ const Work = () => (
         Event Platform <Badge>2022</Badge>
       </Title>
       <P>
-        A web apllication that was created during Rocketseat's Ignite Lab event.
+        A web apllication that was created during Rocketseat&apos;s Ignite Lab event.
         The idea of the application is to show a little of the functioning of the online event platforms,
         from the visual part to the part of the automatic release of videos, in which the video is only available
         for access on the pre-programmed day.

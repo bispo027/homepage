@@ -20,7 +20,7 @@ const Works = () => (
             id="eventIgnite"
             title="Event Platform"
             thumbnail={thumbnailIgnitePlatform}>
-            Event platform made during Rocketseat's Ignite Lab week
+            Event platform made during Rocketseat&apos;s Ignite Lab week
           </WorkGridItem>
         </Section>
         <Section>
