@@ -4,7 +4,7 @@ import Layout from '../components/layouts/article'
 const Posts = () => (
   <Layout title="Posts">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
+      <Heading as="h3" fontSize={20} mt={6} mb={4}>
         Development posts coming soon
       </Heading>
     </Container>
