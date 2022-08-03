@@ -6,13 +6,14 @@ import {
   ListItem,
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, Meta } from '../../components/work'
+import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="EventIgnite">
     <Container>
+      <WorkImage src="/images/works/ignitePlataform.png" alt="ignitePlataform" />
       <Title>
         Event Platform <Badge>2022</Badge>
       </Title>

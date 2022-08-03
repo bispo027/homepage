@@ -28,6 +28,8 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
         <Image
           src={thumbnail}
           alt={title}
+          width="500px"
+          height="300px"
           className="grid-item-thumbnail"
         />
         <LinkOverlay href={`/works/${id}`}>

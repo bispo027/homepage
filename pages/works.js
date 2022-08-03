@@ -7,6 +7,8 @@ import thumbnailIgnitePlatform from '../public/images/works/ignitePlataform.png'
 import thumbnailEditoMarkdown from '../public/images/works/editoMarkdown.png'
 import thumbnailSimpleTodo from '../public/images/works/simpleToDo.png'
 import thumbnailFinance from '../public/images/works/financeJG.png'
+import thumbnailTweet from '../public/images/works/TweetCLI.png'
+
 const Works = () => (
   <Layout title="Works">
     <Container>
@@ -14,16 +16,24 @@ const Works = () => (
         Works
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
+      <SimpleGrid columns={[1, 1, 2]} gap={3}>
+        <Section delay={0.2}>
           <WorkGridItem
-            id="eventIgnite"
-            title="Event Platform"
-            thumbnail={thumbnailIgnitePlatform}>
-            Event platform made during Rocketseat&apos;s Ignite Lab week
+            id="tweetcli"
+            title="Tweet-CLI"
+            thumbnail={thumbnailTweet}>
+            Simple terminal application where you can send tweets without accessing the twitter site
           </WorkGridItem>
         </Section>
-        <Section>
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="simpleTodo"
+            title="App Simple ToDo List"
+            thumbnail={thumbnailSimpleTodo}>
+            Simple aplication mobile to ToDo list make in React-Native
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.5}>
           <WorkGridItem
             id="editorMarkdown"
             title="Editor Markdown"
@@ -33,13 +43,13 @@ const Works = () => (
         </Section>
         <Section delay={0.5}>
           <WorkGridItem
-            id="simpleTodo"
-            title="App Simple ToDo List"
-            thumbnail={thumbnailSimpleTodo}>
-            Simple aplication mobile to ToDo list make in React-Native
+            id="eventIgnite"
+            title="Event Platform"
+            thumbnail={thumbnailIgnitePlatform}>
+            Event platform made during Rocketseat&apos;s Ignite Lab week
           </WorkGridItem>
         </Section>
-        <Section delay={0.5}>
+        <Section delay={0.8}>
           <WorkGridItem
             id="financeJG"
             title="Finance JG"

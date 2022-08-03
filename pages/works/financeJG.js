@@ -6,13 +6,14 @@ import {
   ListItem,
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, Meta } from '../../components/work'
+import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="Finance JG">
     <Container>
+      <WorkImage src="/images/works/financeJG.png" alt="financejg" />
       <Title>
         Finance JG <Badge>2020</Badge>
       </Title>

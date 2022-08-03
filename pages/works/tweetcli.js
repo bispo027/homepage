@@ -11,29 +11,31 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Simple ToDo">
+  <Layout title="tweetcli">
     <Container>
-      <WorkImage src="/images/works/simpleToDo.png" alt="simple-todo" />
+      <WorkImage src="/images/works/TweetCLI.png" />
       <Title>
-        Simple ToDo <Badge>2021</Badge>
+        Tweet CLI <Badge>2022</Badge>
       </Title>
       <P>
-        Mobile application for to-do list annotation made in react, new version will be released soon.
+        I particularly like to tweet from time to time and I spend a lot of
+        time in the linux terminal, so I think it's faster if I just give the
+        command and tweet through the terminal itself
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>source</Meta>
-          <Link href="https://github.com/jgbispo/simple-todo">
-            github.com/jgbispo/simple-todo <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/jgbispo/tweet-cli">
+            github.com/jgbispo/tweet-cli <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Web</span>
+          <span>CLI</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, Electron, React Native</span>
+          <span>Python</span>
         </ListItem>
       </List>
     </Container>
