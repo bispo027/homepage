@@ -8,6 +8,8 @@ import thumbnailEditoMarkdown from '../public/images/works/editoMarkdown.png'
 import thumbnailSimpleTodo from '../public/images/works/simpleToDo.png'
 import thumbnailFinance from '../public/images/works/financeJG.png'
 import thumbnailTweet from '../public/images/works/TweetCLI.png'
+import thumbnailTdgo from '../public/images/works/tdgocli.png'
+
 
 const Works = () => (
   <Layout title="Works">
@@ -19,13 +21,21 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={3}>
         <Section delay={0.2}>
           <WorkGridItem
+            id="tdgo"
+            title="Tdgo"
+            thumbnail={thumbnailTdgo}>
+            TDGO is a to-do list app for terminal
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.2}>
+          <WorkGridItem
             id="tweetcli"
             title="Tweet-CLI"
             thumbnail={thumbnailTweet}>
             Simple terminal application where you can send tweets without accessing the twitter site
           </WorkGridItem>
         </Section>
-        <Section delay={0.2}>
+        <Section delay={0.5}>
           <WorkGridItem
             id="simpleTodo"
             title="App Simple ToDo List"
@@ -41,7 +51,7 @@ const Works = () => (
             Simple markdown editor, a basis for a bigger one to come
           </WorkGridItem>
         </Section>
-        <Section delay={0.5}>
+        <Section delay={0.8}>
           <WorkGridItem
             id="eventIgnite"
             title="Event Platform"

@@ -19,7 +19,7 @@ const Work = () => (
       </Title>
       <P>
         I particularly like to tweet from time to time and I spend a lot of
-        time in the linux terminal, so I think it's faster if I just give the
+        time in the linux terminal, so I think it&apos;s faster if I just give the
         command and tweet through the terminal itself
       </P>
       <List ml={4} my={4}>
