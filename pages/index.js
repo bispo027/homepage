@@ -100,7 +100,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Completed high school at the Federal Institute of Technology of Espirito Santo
+          Completed high school at the Federal Institute of Technology of Espirito Santo (FITES)
+        </BioSection>
+        <BioSection>
+          <BioYear>2019</BioYear>
+          Started studying Computer Science at Vila Velha University
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
@@ -108,7 +112,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Started studying Computer Science at Estacio College
+          Started studying Computer Science at Estacio College and FITES
         </BioSection>
       </Section>
 
